@@ -1,6 +1,6 @@
 class paqueteDeViaje {
-    method duracionEnDias {}
-    method precioBase() {}
+    var duracionEnDias {}
+    var precioBase() {}
     method precioFinal() {}
     method benefiosEspeciales {}
     method coordinador {
@@ -40,7 +40,7 @@ object coordinador {
             false
         }
     }
-    
+
 }
 
 object benefiosEspeciales {
