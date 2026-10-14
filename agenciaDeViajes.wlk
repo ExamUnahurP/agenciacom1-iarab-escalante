@@ -15,6 +15,9 @@ class packsNacionales inherits paqueteDeViaje {
 }
 
 class packsInternacionales inherits paqueteDeViaje {
+    override method precioBase(precio) {
+        return super (precio) *
+    }
     method paisDeDestino {
     }
     method cantidadDeEscalas {
@@ -33,7 +36,13 @@ object coordinador {
 }
 
 object benefiosEspeciales {
-
+    var costo =
+    var estaVigente =
+    
+    method transladosPrivados{}
+    method accesoASalaVIP {}
+    method segurosAdicionales {}
+    
 }
 
 
