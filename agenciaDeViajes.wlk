@@ -2,7 +2,7 @@ class paqueteDeViaje {
     method duracionEnDias {}
     method precioBase {}
     method benefiosEspeciales {}
-    method coordinadorACargo {
+    method coordinador {
     }
 
 }
@@ -18,7 +18,11 @@ class packsInternacionales {
     }
     method cantidadDeEscalas {
     }
-    method esUnLugarDeInteres() {
-        if ()
+    method esUnLugarDeInteres(popularidadDelLugar) {
+        if (popularidadDelLugar) // terminar
     }
+}
+
+object coordinador {
+    
 }
