@@ -5,9 +5,6 @@ class paqueteDeViaje {
     method benefiosEspeciales {}
     method coordinador {
     }
-    method esPremium() {
-        if
-    }
 }
 
 class packsNacionales inherits paqueteDeViaje {
@@ -31,11 +28,13 @@ class packsInternacionales inherits paqueteDeViaje {
 
 object coordinador {
     var rol =
+    var estaMotivado = false
     const cantidadDeViajesRealizados = 
     const aniosDeExperiencia =
-
-    method estaMotivado() {}
-    method cambiarRol() {}
+    
+    method cambiarRol() {
+        if 
+    }
     method estaCalificado () {
         if (cantidadDeViajesRealizados > 20) {
             true
@@ -53,7 +52,7 @@ object coordinador {
 object benefiosEspeciales {
     var costo =
     var estaVigente =
-    //tipo ???
+
     method transladosPrivados{}
     method accesoASalaVIP {}
     method segurosAdicionales {}
