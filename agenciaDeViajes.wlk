@@ -1,8 +1,8 @@
 class paqueteDeViaje {
     var duracionEnDias =
     var precioBase = 
+    const benefiosEspeciales = []
     method precioFinal() {}
-    method benefiosEspeciales {}
     method coordinador {
     }
 }
@@ -31,7 +31,7 @@ object coordinador {
     var estaMotivado = false
     const cantidadDeViajesRealizados = 
     const aniosDeExperiencia =
-    
+
     method cambiarRol() {
         if 
     }
