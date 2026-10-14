@@ -1,19 +1,20 @@
 class paqueteDeViaje {
     method duracionEnDias {}
-    method precioBase {}
+    method precioBase(precio) { 
+
+    }
     method benefiosEspeciales {}
     method coordinador {
     }
 
 }
 
-class packsNacionales //herencia paquetedeviaje  
-{
+class packsNacionales inherits paqueteDeViaje {
     method provinciaDeDestino {}
     method actividadesIncluidas {}
 }
 
-class packsInternacionales {
+class packsInternacionales inherits paqueteDeViaje {
     method paisDeDestino {
     }
     method cantidadDeEscalas {
@@ -34,6 +35,10 @@ object coordinador {
 object benefiosEspeciales {
 
 }
+
+
+
+
 
 
 
