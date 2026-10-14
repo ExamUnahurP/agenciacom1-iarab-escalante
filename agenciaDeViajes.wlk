@@ -24,5 +24,17 @@ class packsInternacionales {
 }
 
 object coordinador {
-    
+    var rol = 
+    method cantidadDeViajesRealizados {}
+    method estaMotivado() {}
+    method aniosDeExperiencia {}
+    method cambiarRol() {}
 }
+
+object benefiosEspeciales {
+
+}
+
+
+
+
