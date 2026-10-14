@@ -5,7 +5,7 @@ class paqueteDeViaje {
     method benefiosEspeciales {}
     method coordinador {
     }
-
+    method es
 }
 
 class packsNacionales inherits paqueteDeViaje {
@@ -26,9 +26,10 @@ class packsInternacionales inherits paqueteDeViaje {
     }
 }
 
+
 object coordinador {
-    var rol = 
-    const cantidadDeViajesRealizados =
+    var rol =
+    const cantidadDeViajesRealizados = 
     const aniosDeExperiencia =
 
     method estaMotivado() {}
@@ -56,6 +57,7 @@ object benefiosEspeciales {
     method segurosAdicionales {}
     
 }
+
 
 
 
