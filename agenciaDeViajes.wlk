@@ -1,8 +1,7 @@
 class paqueteDeViaje {
     method duracionEnDias {}
-    method precioBase(precio) { 
-
-    }
+    method precioBase() {}
+    method precioFinal() {}
     method benefiosEspeciales {}
     method coordinador {
     }
@@ -15,8 +14,8 @@ class packsNacionales inherits paqueteDeViaje {
 }
 
 class packsInternacionales inherits paqueteDeViaje {
-    override method precioBase(precio) {
-        return super (precio) *
+    override method precioFinal(precioBase) {
+        return super (precioBase) * 1.20
     }
     method paisDeDestino {
     }
@@ -38,7 +37,8 @@ object coordinador {
 object benefiosEspeciales {
     var costo =
     var estaVigente =
-    
+    //tipo ???
+
     method transladosPrivados{}
     method accesoASalaVIP {}
     method segurosAdicionales {}
