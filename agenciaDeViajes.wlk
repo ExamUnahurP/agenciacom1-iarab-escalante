@@ -1,6 +1,6 @@
 class paqueteDeViaje {
-    var duracionEnDias {}
-    var precioBase() {}
+    var duracionEnDias =
+    var precioBase = 
     method precioFinal() {}
     method benefiosEspeciales {}
     method coordinador {
@@ -9,18 +9,18 @@ class paqueteDeViaje {
 }
 
 class packsNacionales inherits paqueteDeViaje {
-    method provinciaDeDestino {}
-    method actividadesIncluidas {}
+    var provinciaDeDestino =
+    const actividadesIncluidas = []
 }
 
 class packsInternacionales inherits paqueteDeViaje {
+    var paisDeDestino =
+    var cantidadDeEscalas =
+
     override method precioFinal(precioBase) {
         return super (precioBase) * 1.20
     }
-    method paisDeDestino {
-    }
-    method cantidadDeEscalas {
-    }
+
     method esUnLugarDeInteres(popularidadDelLugar) {
         if (popularidadDelLugar) // terminar
     }
@@ -28,9 +28,10 @@ class packsInternacionales inherits paqueteDeViaje {
 
 object coordinador {
     var rol = 
-    method cantidadDeViajesRealizados {}
+    const cantidadDeViajesRealizados =
+    const aniosDeExperiencia =
+
     method estaMotivado() {}
-    method aniosDeExperiencia {}
     method cambiarRol() {}
     method estaCalificado () {
         if (cantidadDeViajesRealizados > 20) {
@@ -40,6 +41,9 @@ object coordinador {
             false
         }
     }
+    method cumpleSuRol() {
+        if ()
+    }
 
 }
 
@@ -47,7 +51,6 @@ object benefiosEspeciales {
     var costo =
     var estaVigente =
     //tipo ???
-
     method transladosPrivados{}
     method accesoASalaVIP {}
     method segurosAdicionales {}
