@@ -32,6 +32,15 @@ object coordinador {
     method estaMotivado() {}
     method aniosDeExperiencia {}
     method cambiarRol() {}
+    method estaCalificado () {
+        if (cantidadDeViajesRealizados > 20) {
+            true
+        }
+        else{
+            false
+        }
+    }
+    
 }
 
 object benefiosEspeciales {
