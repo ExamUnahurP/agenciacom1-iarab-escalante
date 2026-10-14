@@ -28,12 +28,12 @@ class packsInternacionales inherits paqueteDeViaje {
 
 object coordinador {
     var rol =
-    var estaMotivado = false
+    var estaMotivado = 
     const cantidadDeViajesRealizados = 
     const aniosDeExperiencia =
 
     method cambiarRol() {
-        if 
+        if (rol = "guia") {}
     }
     method estaCalificado () {
         if (cantidadDeViajesRealizados > 20) {
