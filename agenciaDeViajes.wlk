@@ -5,7 +5,9 @@ class paqueteDeViaje {
     method benefiosEspeciales {}
     method coordinador {
     }
-    method es
+    method esPremium() {
+        if
+    }
 }
 
 class packsNacionales inherits paqueteDeViaje {
